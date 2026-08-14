@@ -1,5 +1,5 @@
 /**
- * XYZ Nursing College — Main JavaScript
+ * Jivan Joti Nursing College — Main JavaScript
  * Features: Page loader, navbar scroll effects, dark mode, animated counters,
  *           testimonials slider, gallery filter, form validation, back-to-top,
  *           search overlay, scroll progress fallback, hero particles.
@@ -118,7 +118,7 @@ window.addEventListener('scroll', debounce(updateActiveNavLink, 50), { passive: 
    ===================================================== */
 const darkModeToggle = $('#darkModeToggle');
 const darkModeIcon = $('#darkModeIcon');
-const DARK_MODE_KEY = 'xyz-nursing-dark-mode';
+const DARK_MODE_KEY = 'jivanjoti-nursing-dark-mode';
 
 // Apply saved preference on load
 const savedTheme = localStorage.getItem(DARK_MODE_KEY);
@@ -174,7 +174,7 @@ const searchIndex = [
   { title: 'Apollo Hospitals Partnership', section: '#placements', desc: 'Placement partner hospitals' },
   { title: 'Annual Health Camp', section: '#news', desc: 'Community health events and camps' },
   { title: 'Contact Us', section: '#contact', desc: 'Phone, email and address' },
-  { title: 'About XYZ Nursing College', section: '#about', desc: 'History, vision and mission' },
+  { title: 'About Jivan Joti Nursing College', section: '#about', desc: 'History, vision and mission' },
   { title: 'Scholarships', section: '#faq', desc: 'Merit and EWS scholarships available' },
   { title: 'Gallery', section: '#gallery', desc: 'Campus and event photos' },
 ];
@@ -536,7 +536,7 @@ validateAndSubmitForm(
 const downloadBtn = $('#downloadProspectusBtn');
 downloadBtn?.addEventListener('click', (e) => {
   e.preventDefault();
-  showToast('Prospectus download will begin shortly. Thank you for your interest in XYZ Nursing College!');
+  showToast('Prospectus download will begin shortly. Thank you for your interest in Jivan Joti Nursing College!');
 });
 
 /* =====================================================
@@ -656,5 +656,5 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('scroll', debounce(updateActiveNavLink, 100), { passive: true });
 
   // Log version
-  console.log('%c XYZ Nursing College Website v1.0 ', 'background:#1e6fb5;color:#fff;padding:4px 8px;border-radius:4px;font-weight:700;');
+  console.log('%c Jivan Joti Nursing College Website v1.0 ', 'background:#1e6fb5;color:#fff;padding:4px 8px;border-radius:4px;font-weight:700;');
 });

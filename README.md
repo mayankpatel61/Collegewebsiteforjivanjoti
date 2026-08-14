@@ -1,6 +1,6 @@
-# Collegewebsiteforjivanjoti — XYZ Nursing College Website
+# Collegewebsiteforjivanjoti — Jivan Joti Nursing College Website
 
-A modern, premium, and fully responsive landing page website for **XYZ Nursing College** (Jivan Jyoti). This website is built to highlight the college's academic programs, campus life, admissions, faculty, facilities, and excellent placement records with high visual appeal, rich animations, and dark mode support.
+A modern, premium, and fully responsive landing page website for **Jivan Joti Nursing College** (Jivan Jyoti). This website is built to highlight the college's academic programs, campus life, admissions, faculty, facilities, and excellent placement records with high visual appeal, rich animations, and dark mode support.
 
 ---
 
