@@ -1,0 +1,1637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="XYZ Nursing College - Empowering Future Healthcare Professionals. Premier nursing education with B.Sc Nursing, GNM, ANM and Post Basic programs. Excellent faculty, state-of-the-art facilities and 95% placement rate." />
+  <meta name="keywords" content="nursing college, B.Sc nursing, GNM, ANM, nursing admissions, healthcare education, XYZ Nursing College" />
+  <meta name="author" content="XYZ Nursing College" />
+  <meta property="og:title" content="XYZ Nursing College – Empowering Future Healthcare Professionals" />
+  <meta property="og:description" content="Join XYZ Nursing College for world-class nursing education and a bright career in healthcare." />
+  <meta property="og:type" content="website" />
+
+  <title>XYZ Nursing College – Empowering Future Healthcare Professionals</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- AOS Animation -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+  <!-- Glightbox -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="80">
+
+  <!-- ====== PAGE LOADER ====== -->
+  <div id="page-loader" aria-hidden="true">
+    <div class="loader-inner">
+      <div class="loader-cross">
+        <i class="fa-solid fa-cross"></i>
+      </div>
+      <p>XYZ Nursing College</p>
+    </div>
+  </div>
+
+  <!-- ====== SCROLL PROGRESS BAR ====== -->
+  <div id="scroll-progress" aria-hidden="true"></div>
+
+  <!-- ====== STICKY NAVBAR ====== -->
+  <nav class="navbar navbar-expand-lg sticky-top" id="mainNavbar" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <!-- Brand Logo -->
+      <a class="navbar-brand" href="#home" aria-label="XYZ Nursing College Home">
+        <div class="brand-logo">
+          <div class="logo-icon"><i class="fa-solid fa-staff-snake"></i></div>
+          <div class="brand-text">
+            <span class="brand-name">XYZ Nursing College</span>
+            <span class="brand-tagline">Healthcare Excellence</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Mobile Toggle -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+        aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="toggler-icon"><span></span><span></span><span></span></span>
+      </button>
+
+      <!-- Nav Links -->
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+          <li class="nav-item"><a class="nav-link" href="#admissions">Admissions</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faculty">Faculty</a></li>
+          <li class="nav-item"><a class="nav-link" href="#facilities">Facilities</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#placements">Placements</a></li>
+          <li class="nav-item"><a class="nav-link" href="#news">News</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <!-- Right Controls -->
+        <div class="nav-controls ms-lg-3 d-flex align-items-center gap-2">
+          <!-- Search Toggle -->
+          <button class="btn-icon" id="searchToggleBtn" aria-label="Toggle search" aria-expanded="false">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <!-- Dark Mode Toggle -->
+          <button class="btn-icon" id="darkModeToggle" aria-label="Toggle dark mode">
+            <i class="fa-solid fa-moon" id="darkModeIcon"></i>
+          </button>
+          <!-- CTA Button -->
+          <a href="#admissions" class="btn btn-apply-nav">Apply Now</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ====== SEARCH OVERLAY ====== -->
+  <div id="searchOverlay" class="search-overlay" role="search" aria-hidden="true">
+    <div class="search-container">
+      <input type="search" id="searchInput" class="search-input" placeholder="Search courses, faculty, events..."
+        aria-label="Search the website" />
+      <button id="searchCloseBtn" class="search-close" aria-label="Close search">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <div id="searchResults" class="search-results" aria-live="polite"></div>
+  </div>
+
+  <!-- ====== SECTION 1: HERO ====== -->
+  <section id="home" class="hero-section">
+    <div class="hero-bg-overlay"></div>
+    <div class="hero-particles" aria-hidden="true" id="heroParticles"></div>
+    <div class="container hero-content">
+      <div class="row align-items-center min-vh-100">
+        <div class="col-lg-7" data-aos="fade-right" data-aos-duration="1000">
+          <div class="hero-badge">
+            <i class="fa-solid fa-star"></i> Ranked #1 Nursing College in the Region 2025
+          </div>
+          <h1 class="hero-headline">
+            Empowering Future<br />
+            <span class="hero-highlight">Healthcare Professionals</span>
+          </h1>
+          <p class="hero-sub">
+            Join XYZ Nursing College and begin a rewarding career at the intersection of science and compassion.
+            World-class faculty, modern clinical facilities, and 95% placement rate await you.
+          </p>
+          <div class="hero-actions">
+            <a href="#admissions" class="btn btn-hero-primary" id="applyNowBtn">
+              <i class="fa-solid fa-graduation-cap"></i> Apply Now
+            </a>
+            <a href="#" class="btn btn-hero-secondary" id="downloadProspectusBtn" aria-label="Download Prospectus PDF">
+              <i class="fa-solid fa-download"></i> Download Prospectus
+            </a>
+          </div>
+          <!-- Quick Stats -->
+          <div class="hero-stats" role="region" aria-label="Quick statistics">
+            <div class="hero-stat">
+              <span class="stat-num" data-target="2500">0</span><span class="stat-unit">+</span>
+              <span class="stat-label">Students Enrolled</span>
+            </div>
+            <div class="hero-stat">
+              <span class="stat-num" data-target="95">0</span><span class="stat-unit">%</span>
+              <span class="stat-label">Placement Rate</span>
+            </div>
+            <div class="hero-stat">
+              <span class="stat-num" data-target="120">0</span><span class="stat-unit">+</span>
+              <span class="stat-label">Expert Faculty</span>
+            </div>
+            <div class="hero-stat">
+              <span class="stat-num" data-target="50">0</span><span class="stat-unit">+</span>
+              <span class="stat-label">Hospital Partners</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 d-none d-lg-flex justify-content-center" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+          <div class="hero-image-wrapper">
+            <img src="assets/images/hero_nursing.png" alt="XYZ Nursing College students studying in a modern facility"
+              class="hero-image" fetchpriority="high" width="500" height="500" />
+            <div class="hero-image-badge">
+              <i class="fa-solid fa-award"></i>
+              <span>INC Approved</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Scroll Indicator -->
+    <a href="#about" class="scroll-indicator" aria-label="Scroll to About section">
+      <i class="fa-solid fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- ====== SECTION 2: ABOUT ====== -->
+  <section id="about" class="section-padding bg-light-subtle">
+    <div class="container">
+
+      <!-- Section Header -->
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Who We Are</span>
+        <h2 class="section-title">About XYZ Nursing College</h2>
+        <p class="section-subtitle">A legacy of excellence in nursing education since 1998, committed to shaping compassionate healthcare leaders.</p>
+      </div>
+
+      <!-- History & Overview -->
+      <div class="row align-items-center mb-5 g-5">
+        <div class="col-lg-6" data-aos="fade-right">
+          <img src="assets/images/campus_building.png" alt="XYZ Nursing College campus building"
+            class="img-fluid rounded-4 shadow-lg" width="600" height="450" loading="lazy" />
+        </div>
+        <div class="col-lg-6" data-aos="fade-left">
+          <h3 class="about-sub-title">Our Rich History</h3>
+          <p class="about-text">
+            Established in 1998, XYZ Nursing College was founded with a singular vision: to create healthcare
+            professionals who combine technical expertise with deep human compassion. Over the past 25+ years,
+            we have graduated more than 8,000 nurses who serve in top hospitals across India and internationally.
+          </p>
+          <p class="about-text">
+            Affiliated with the State University of Health Sciences and approved by the Indian Nursing Council (INC)
+            and the State Nursing Council, our institution maintains the highest academic and clinical standards.
+          </p>
+          <div class="about-highlights">
+            <div class="about-highlight-item">
+              <i class="fa-solid fa-circle-check"></i>
+              <span>INC & State Nursing Council Approved</span>
+            </div>
+            <div class="about-highlight-item">
+              <i class="fa-solid fa-circle-check"></i>
+              <span>NAAC 'A+' Grade Accredited</span>
+            </div>
+            <div class="about-highlight-item">
+              <i class="fa-solid fa-circle-check"></i>
+              <span>25+ Years of Academic Excellence</span>
+            </div>
+            <div class="about-highlight-item">
+              <i class="fa-solid fa-circle-check"></i>
+              <span>8,000+ Alumni Worldwide</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Vision & Mission -->
+      <div class="row g-4 mb-5">
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="vm-card vision-card">
+            <div class="vm-icon"><i class="fa-solid fa-eye"></i></div>
+            <h4>Our Vision</h4>
+            <p>To be the premier institution of nursing education in South Asia, producing skilled, ethical, and compassionate healthcare professionals who transform patient care and advance the nursing profession globally.</p>
+          </div>
+        </div>
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="vm-card mission-card">
+            <div class="vm-icon"><i class="fa-solid fa-bullseye"></i></div>
+            <h4>Our Mission</h4>
+            <p>To provide exceptional nursing education through evidence-based curricula, state-of-the-art simulation labs, and extensive clinical training — nurturing graduates who lead with knowledge, skill, and heart.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Principal's Message -->
+      <div class="principal-card" data-aos="fade-up">
+        <div class="row align-items-center g-4">
+          <div class="col-md-3 text-center">
+            <img src="assets/images/principal.png" alt="Dr. Anita Sharma, Principal of XYZ Nursing College"
+              class="principal-photo" width="200" height="200" loading="lazy" />
+            <h5 class="principal-name">Dr. Anita Sharma</h5>
+            <p class="principal-role">Principal, XYZ Nursing College</p>
+            <p class="principal-credentials">Ph.D (Nursing) | M.Sc Nursing | 28 yrs Experience</p>
+          </div>
+          <div class="col-md-9">
+            <div class="principal-quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+            <h4 class="principal-message-title">Principal's Message</h4>
+            <p class="principal-message">
+              Welcome to XYZ Nursing College — a place where passion meets purpose. Nursing is not merely a
+              profession; it is a noble calling that demands the highest levels of skill, empathy, and dedication.
+              Our institution is committed to equipping every student with the clinical competence and ethical
+              foundation to make a real difference in patient lives.
+            </p>
+            <p class="principal-message">
+              Our world-class faculty, cutting-edge simulation labs, and partnerships with 50+ hospitals ensure
+              that you receive the best hands-on training in the country. I invite you to be part of our legacy
+              of excellence and join thousands of alumni making a difference in healthcare worldwide.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accreditation Badges -->
+      <div class="accreditation-row" data-aos="fade-up">
+        <h4 class="text-center mb-4">Accreditations & Recognitions</h4>
+        <div class="accreditation-grid">
+          <div class="accred-badge"><i class="fa-solid fa-certificate"></i><span>INC Approved</span></div>
+          <div class="accred-badge"><i class="fa-solid fa-certificate"></i><span>NAAC A+</span></div>
+          <div class="accred-badge"><i class="fa-solid fa-certificate"></i><span>State Nursing Council</span></div>
+          <div class="accred-badge"><i class="fa-solid fa-certificate"></i><span>RGUHS Affiliated</span></div>
+          <div class="accred-badge"><i class="fa-solid fa-certificate"></i><span>ISO 9001:2015</span></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ====== SECTION 3: COURSES ====== -->
+  <section id="courses" class="section-padding">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Academic Programs</span>
+        <h2 class="section-title">Our Nursing Courses</h2>
+        <p class="section-subtitle">Choose from our INC-approved programs designed to build clinical competency and professional excellence.</p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Course 1: B.Sc Nursing -->
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="course-card" tabindex="0">
+            <div class="course-header bsc">
+              <div class="course-icon"><i class="fa-solid fa-user-nurse"></i></div>
+              <div class="course-badge">Most Popular</div>
+            </div>
+            <div class="course-body">
+              <h3 class="course-title">B.Sc Nursing</h3>
+              <p class="course-desc">A comprehensive 4-year undergraduate program that trains students in all aspects of modern nursing practice, from anatomy to advanced patient care management.</p>
+              <div class="course-details">
+                <div class="course-detail-item">
+                  <i class="fa-solid fa-clock"></i>
+                  <span><strong>Duration:</strong> 4 Years + 6 Months Internship</span>
+                </div>
+                <div class="course-detail-item">
+                  <i class="fa-solid fa-graduation-cap"></i>
+                  <span><strong>Eligibility:</strong> 10+2 with PCB, Min. 45% marks</span>
+                </div>
+                <div class="course-detail-item">
+                  <i class="fa-solid fa-users"></i>
+                  <span><strong>Intake:</strong> 60 Seats per batch</span>
+                </div>
+              </div>
+              <div class="course-overview">
+                <h5>Program Highlights</h5>
+                <ul>
+                  <li>Advanced clinical simulation training</li>
+                  <li>Community health nursing internship</li>
+                  <li>Research methodology & evidence-based practice</li>
+                  <li>Direct entry to M.Sc Nursing programs</li>
+                </ul>
+              </div>
+              <a href="#admissions" class="btn btn-course">Apply for B.Sc Nursing <i class="fa-solid fa-arrow-right ms-1"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Course 2: GNM -->
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="course-card" tabindex="0">
+            <div class="course-header gnm">
+              <div class="course-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+            </div>
+            <div class="course-body">
+              <h3 class="course-title">GNM – General Nursing & Midwifery</h3>
+              <p class="course-desc">A 3.5-year diploma program that provides strong foundations in general nursing and midwifery, preparing graduates for immediate clinical deployment in hospitals and community settings.</p>
+              <div class="course-details">
+                <div class="course-detail-item">
+                  <i class="fa-solid fa-clock"></i>
+                  <span><strong>Duration:</strong> 3.5 Years (incl. 6 month internship)</span>
+                </div>
+                <div class="course-detail-item">
+                  <i class="fa-solid fa-graduation-cap"></i>
+                  <span><strong>Eligibility:</strong> 10+2 with any stream, Min. 40%</span>
+                </div>
+                <div class="course-detail-item">
+                  <i class="fa-solid fa-users"></i>
+                  <span><strong>Intake:</strong> 80 Seats per batch</span>
+                </div>
+              </div>
+              <div class="course-overview">
+                <h5>Program Highlights</h5>
+                <ul>
+                  <li>Comprehensive midwifery training</li>
+                  <li>OT & ICU clinical exposure</li>
+                  <li>Maternal and child health nursing</li>
+                  <li>Direct hospital placement support</li>
+                </ul>
+              </div>
+              <a href="#admissions" class="btn btn-course">Apply for GNM <i class="fa-solid fa-arrow-right ms-1"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Course 3: ANM -->
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="course-card" tabindex="0">
+            <div class="course-header anm">
+              <div class="course-icon"><i class="fa-solid fa-house-medical"></i></div>
+            </div>
+            <div class="course-body">
+              <h3 class="course-title">ANM – Auxiliary Nursing Midwifery</h3>
+              <p class="course-desc">A 2-year community-focused diploma program designed to produce skilled healthcare workers proficient in maternal and child health, family planning, and primary healthcare delivery.</p>
+              <div class="course-details">
+                <div class="course-detail-item">
+                  <i class="fa-solid fa-clock"></i>
+                  <span><strong>Duration:</strong> 2 Years</span>
+                </div>
+                <div class="course-detail-item">
+                  <i class="fa-solid fa-graduation-cap"></i>
+                  <span><strong>Eligibility:</strong> 10+2 (any stream), Min. 40%</span>
+                </div>
+                <div class="course-detail-item">
+                  <i class="fa-solid fa-users"></i>
+                  <span><strong>Intake:</strong> 60 Seats per batch</span>
+                </div>
+              </div>
+              <div class="course-overview">
+                <h5>Program Highlights</h5>
+                <ul>
+                  <li>Primary healthcare delivery training</li>
+                  <li>Rural health outreach programs</li>
+                  <li>Family planning & nutrition counseling</li>
+                  <li>Government sector placement pathways</li>
+                </ul>
+              </div>
+              <a href="#admissions" class="btn btn-course">Apply for ANM <i class="fa-solid fa-arrow-right ms-1"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Course 4: Post Basic B.Sc Nursing -->
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="course-card" tabindex="0">
+            <div class="course-header postbasic">
+              <div class="course-icon"><i class="fa-solid fa-microscope"></i></div>
+              <div class="course-badge advanced">Advanced</div>
+            </div>
+            <div class="course-body">
+              <h3 class="course-title">Post Basic B.Sc Nursing</h3>
+              <p class="course-desc">A 2-year degree upgrade program exclusively for registered GNM nurses seeking a Bachelor's degree. Enhances clinical leadership, research, and managerial capabilities.</p>
+              <div class="course-details">
+                <div class="course-detail-item">
+                  <i class="fa-solid fa-clock"></i>
+                  <span><strong>Duration:</strong> 2 Years</span>
+                </div>
+                <div class="course-detail-item">
+                  <i class="fa-solid fa-graduation-cap"></i>
+                  <span><strong>Eligibility:</strong> Registered GNM Nurses with 1+ yr experience</span>
+                </div>
+                <div class="course-detail-item">
+                  <i class="fa-solid fa-users"></i>
+                  <span><strong>Intake:</strong> 40 Seats per batch</span>
+                </div>
+              </div>
+              <div class="course-overview">
+                <h5>Program Highlights</h5>
+                <ul>
+                  <li>Leadership & nursing management modules</li>
+                  <li>Research project & dissertation</li>
+                  <li>Pathway to M.Sc Nursing</li>
+                  <li>Weekend & distance learning options</li>
+                </ul>
+              </div>
+              <a href="#admissions" class="btn btn-course">Apply for Post Basic <i class="fa-solid fa-arrow-right ms-1"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SECTION 4: ADMISSIONS ====== -->
+  <section id="admissions" class="section-padding bg-light-subtle">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Join Us</span>
+        <h2 class="section-title">Admissions 2025-26</h2>
+        <p class="section-subtitle">Your journey to becoming a healthcare professional starts here. Follow our simple admission process.</p>
+      </div>
+
+      <!-- Admission Timeline -->
+      <div class="admission-timeline" data-aos="fade-up">
+        <h4 class="text-center mb-4">Admission Process</h4>
+        <div class="timeline-steps">
+          <div class="timeline-step">
+            <div class="step-number">01</div>
+            <div class="step-content">
+              <h5>Online Registration</h5>
+              <p>Fill the online application form with personal and academic details.</p>
+            </div>
+          </div>
+          <div class="timeline-connector"></div>
+          <div class="timeline-step">
+            <div class="step-number">02</div>
+            <div class="step-content">
+              <h5>Document Submission</h5>
+              <p>Upload scanned copies of required documents for verification.</p>
+            </div>
+          </div>
+          <div class="timeline-connector"></div>
+          <div class="timeline-step">
+            <div class="step-number">03</div>
+            <div class="step-content">
+              <h5>Entrance Test / Merit</h5>
+              <p>Appear for the entrance test or submit merit-based qualification scores.</p>
+            </div>
+          </div>
+          <div class="timeline-connector"></div>
+          <div class="timeline-step">
+            <div class="step-number">04</div>
+            <div class="step-content">
+              <h5>Counselling & Admission</h5>
+              <p>Attend counselling session, confirm your seat, and pay the fee.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-5 mt-3">
+        <!-- Left: Eligibility + Documents -->
+        <div class="col-lg-6" data-aos="fade-right">
+          <!-- Eligibility -->
+          <div class="admission-block">
+            <h4><i class="fa-solid fa-list-check me-2"></i>Eligibility Criteria</h4>
+            <table class="table table-striped admission-table">
+              <thead>
+                <tr>
+                  <th>Program</th>
+                  <th>Qualification</th>
+                  <th>Min. Marks</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>B.Sc Nursing</td>
+                  <td>10+2 (PCB)</td>
+                  <td>45%</td>
+                </tr>
+                <tr>
+                  <td>GNM</td>
+                  <td>10+2 (Any Stream)</td>
+                  <td>40%</td>
+                </tr>
+                <tr>
+                  <td>ANM</td>
+                  <td>10+2 (Any Stream)</td>
+                  <td>40%</td>
+                </tr>
+                <tr>
+                  <td>Post Basic B.Sc</td>
+                  <td>GNM + Registration</td>
+                  <td>1+ yr exp</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Required Documents -->
+          <div class="admission-block mt-4">
+            <h4><i class="fa-solid fa-folder-open me-2"></i>Required Documents</h4>
+            <ul class="doc-list">
+              <li><i class="fa-solid fa-file-alt"></i> 10th & 12th Mark Sheets + Pass Certificates</li>
+              <li><i class="fa-solid fa-file-alt"></i> Transfer Certificate from previous institution</li>
+              <li><i class="fa-solid fa-file-alt"></i> Character Certificate</li>
+              <li><i class="fa-solid fa-file-alt"></i> Medical Fitness Certificate</li>
+              <li><i class="fa-solid fa-file-alt"></i> Aadhar Card / ID Proof</li>
+              <li><i class="fa-solid fa-file-alt"></i> Passport-size Photographs (6 copies)</li>
+              <li><i class="fa-solid fa-file-alt"></i> Caste Certificate (if applicable)</li>
+            </ul>
+          </div>
+
+          <!-- Fee Structure -->
+          <div class="admission-block mt-4">
+            <h4><i class="fa-solid fa-indian-rupee-sign me-2"></i>Fee Structure (Annual)</h4>
+            <table class="table table-bordered fee-table">
+              <thead>
+                <tr>
+                  <th>Program</th>
+                  <th>Tuition Fee</th>
+                  <th>Hostel Fee</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>B.Sc Nursing</td>
+                  <td>₹85,000</td>
+                  <td>₹40,000</td>
+                </tr>
+                <tr>
+                  <td>GNM</td>
+                  <td>₹55,000</td>
+                  <td>₹38,000</td>
+                </tr>
+                <tr>
+                  <td>ANM</td>
+                  <td>₹40,000</td>
+                  <td>₹35,000</td>
+                </tr>
+                <tr>
+                  <td>Post Basic B.Sc</td>
+                  <td>₹60,000</td>
+                  <td>₹40,000</td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="fee-note">* Scholarships available for merit and economically weaker section students. Bank loan assistance provided.</p>
+          </div>
+        </div>
+
+        <!-- Right: Application Form -->
+        <div class="col-lg-6" data-aos="fade-left">
+          <div class="application-form-card">
+            <h4><i class="fa-solid fa-pen-to-square me-2"></i>Online Application Form</h4>
+            <p class="form-subtitle">Fill in your details below and our admissions team will contact you within 24 hours.</p>
+            <form id="applicationForm" novalidate>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="appFirstName" class="form-label">First Name <span aria-hidden="true">*</span></label>
+                  <input type="text" class="form-control" id="appFirstName" name="firstName" required
+                    placeholder="Enter first name" autocomplete="given-name" />
+                  <div class="invalid-feedback">Please enter your first name.</div>
+                </div>
+                <div class="col-md-6">
+                  <label for="appLastName" class="form-label">Last Name <span aria-hidden="true">*</span></label>
+                  <input type="text" class="form-control" id="appLastName" name="lastName" required
+                    placeholder="Enter last name" autocomplete="family-name" />
+                  <div class="invalid-feedback">Please enter your last name.</div>
+                </div>
+                <div class="col-12">
+                  <label for="appEmail" class="form-label">Email Address <span aria-hidden="true">*</span></label>
+                  <input type="email" class="form-control" id="appEmail" name="email" required
+                    placeholder="your@email.com" autocomplete="email" />
+                  <div class="invalid-feedback">Please enter a valid email address.</div>
+                </div>
+                <div class="col-12">
+                  <label for="appPhone" class="form-label">Phone Number <span aria-hidden="true">*</span></label>
+                  <input type="tel" class="form-control" id="appPhone" name="phone" required
+                    placeholder="+91 98765 43210" autocomplete="tel" pattern="[0-9+\s\-]{10,15}" />
+                  <div class="invalid-feedback">Please enter a valid phone number.</div>
+                </div>
+                <div class="col-12">
+                  <label for="appCourse" class="form-label">Program of Interest <span aria-hidden="true">*</span></label>
+                  <select class="form-select" id="appCourse" name="course" required>
+                    <option value="">-- Select a Program --</option>
+                    <option value="bsc">B.Sc Nursing</option>
+                    <option value="gnm">GNM</option>
+                    <option value="anm">ANM</option>
+                    <option value="postbasic">Post Basic B.Sc Nursing</option>
+                  </select>
+                  <div class="invalid-feedback">Please select a program.</div>
+                </div>
+                <div class="col-md-6">
+                  <label for="appQualification" class="form-label">Highest Qualification <span aria-hidden="true">*</span></label>
+                  <select class="form-select" id="appQualification" name="qualification" required>
+                    <option value="">-- Select --</option>
+                    <option value="10th">10th</option>
+                    <option value="12th">12th (10+2)</option>
+                    <option value="gnm_diploma">GNM Diploma</option>
+                    <option value="graduate">Graduate</option>
+                  </select>
+                  <div class="invalid-feedback">Please select your qualification.</div>
+                </div>
+                <div class="col-md-6">
+                  <label for="appMarks" class="form-label">Percentage / CGPA</label>
+                  <input type="text" class="form-control" id="appMarks" name="marks" placeholder="e.g. 78% or 8.5 CGPA" />
+                </div>
+                <div class="col-12">
+                  <label for="appMessage" class="form-label">Additional Message</label>
+                  <textarea class="form-control" id="appMessage" name="message" rows="3"
+                    placeholder="Any specific questions or information..."></textarea>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="appConsent" name="consent" required />
+                    <label class="form-check-label" for="appConsent">
+                      I agree to be contacted by XYZ Nursing College admissions team. <span aria-hidden="true">*</span>
+                    </label>
+                    <div class="invalid-feedback">You must agree before submitting.</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-submit-form w-100" id="appSubmitBtn">
+                    <span class="btn-text"><i class="fa-solid fa-paper-plane me-2"></i>Submit Application</span>
+                    <span class="btn-loading d-none"><i class="fa-solid fa-spinner fa-spin me-2"></i>Submitting...</span>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SECTION 5: FACULTY ====== -->
+  <section id="faculty" class="section-padding">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Our Team</span>
+        <h2 class="section-title">Meet Our Faculty</h2>
+        <p class="section-subtitle">Our distinguished faculty bring decades of clinical and academic experience to shape the next generation of nursing professionals.</p>
+      </div>
+
+      <!-- Faculty Team Photo -->
+      <div class="row mb-5" data-aos="fade-up">
+        <div class="col-12">
+          <img src="assets/images/faculty_team.png" alt="XYZ Nursing College faculty team"
+            class="img-fluid rounded-4 shadow-lg w-100" loading="lazy" style="max-height:400px; object-fit:cover;" />
+        </div>
+      </div>
+
+      <!-- Individual Faculty Cards -->
+      <div class="row g-4">
+        <!-- Faculty 1 -->
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+          <div class="faculty-card">
+            <div class="faculty-avatar" style="background: linear-gradient(135deg, #1e6fb5, #34a0c8);">
+              <i class="fa-solid fa-user-nurse fa-2x" style="color:white;"></i>
+            </div>
+            <h5 class="faculty-name">Dr. Anita Sharma</h5>
+            <p class="faculty-role">Principal & Professor</p>
+            <div class="faculty-credentials">
+              <span><i class="fa-solid fa-graduation-cap"></i> Ph.D (Nursing)</span>
+              <span><i class="fa-solid fa-briefcase-medical"></i> 28 yrs Experience</span>
+            </div>
+            <p class="faculty-specialization"><i class="fa-solid fa-stethoscope"></i> Medical-Surgical Nursing</p>
+          </div>
+        </div>
+
+        <!-- Faculty 2 -->
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+          <div class="faculty-card">
+            <div class="faculty-avatar" style="background: linear-gradient(135deg, #2a9d5c, #4ecb71);">
+              <i class="fa-solid fa-user-doctor fa-2x" style="color:white;"></i>
+            </div>
+            <h5 class="faculty-name">Prof. Rajesh Kumar</h5>
+            <p class="faculty-role">Associate Professor</p>
+            <div class="faculty-credentials">
+              <span><i class="fa-solid fa-graduation-cap"></i> M.Sc Nursing</span>
+              <span><i class="fa-solid fa-briefcase-medical"></i> 20 yrs Experience</span>
+            </div>
+            <p class="faculty-specialization"><i class="fa-solid fa-stethoscope"></i> Community Health Nursing</p>
+          </div>
+        </div>
+
+        <!-- Faculty 3 -->
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+          <div class="faculty-card">
+            <div class="faculty-avatar" style="background: linear-gradient(135deg, #7c3aed, #a855f7);">
+              <i class="fa-solid fa-user-nurse fa-2x" style="color:white;"></i>
+            </div>
+            <h5 class="faculty-name">Dr. Priya Meenakshi</h5>
+            <p class="faculty-role">Assistant Professor</p>
+            <div class="faculty-credentials">
+              <span><i class="fa-solid fa-graduation-cap"></i> M.Sc, Ph.D</span>
+              <span><i class="fa-solid fa-briefcase-medical"></i> 15 yrs Experience</span>
+            </div>
+            <p class="faculty-specialization"><i class="fa-solid fa-stethoscope"></i> Obstetric & Gynecology Nursing</p>
+          </div>
+        </div>
+
+        <!-- Faculty 4 -->
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+          <div class="faculty-card">
+            <div class="faculty-avatar" style="background: linear-gradient(135deg, #d97706, #f59e0b);">
+              <i class="fa-solid fa-user-doctor fa-2x" style="color:white;"></i>
+            </div>
+            <h5 class="faculty-name">Mr. Suresh Pillai</h5>
+            <p class="faculty-role">Clinical Tutor</p>
+            <div class="faculty-credentials">
+              <span><i class="fa-solid fa-graduation-cap"></i> B.Sc, M.Sc Nursing</span>
+              <span><i class="fa-solid fa-briefcase-medical"></i> 12 yrs Experience</span>
+            </div>
+            <p class="faculty-specialization"><i class="fa-solid fa-stethoscope"></i> ICU & Critical Care Nursing</p>
+          </div>
+        </div>
+
+        <!-- Faculty 5 -->
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+          <div class="faculty-card">
+            <div class="faculty-avatar" style="background: linear-gradient(135deg, #dc2626, #f87171);">
+              <i class="fa-solid fa-user-nurse fa-2x" style="color:white;"></i>
+            </div>
+            <h5 class="faculty-name">Dr. Kavitha Nair</h5>
+            <p class="faculty-role">Assistant Professor</p>
+            <div class="faculty-credentials">
+              <span><i class="fa-solid fa-graduation-cap"></i> M.Sc, Ph.D</span>
+              <span><i class="fa-solid fa-briefcase-medical"></i> 18 yrs Experience</span>
+            </div>
+            <p class="faculty-specialization"><i class="fa-solid fa-stethoscope"></i> Paediatric Nursing</p>
+          </div>
+        </div>
+
+        <!-- Faculty 6 -->
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+          <div class="faculty-card">
+            <div class="faculty-avatar" style="background: linear-gradient(135deg, #0891b2, #22d3ee);">
+              <i class="fa-solid fa-user-doctor fa-2x" style="color:white;"></i>
+            </div>
+            <h5 class="faculty-name">Prof. Arun Singh</h5>
+            <p class="faculty-role">Professor & HOD</p>
+            <div class="faculty-credentials">
+              <span><i class="fa-solid fa-graduation-cap"></i> M.Sc Nursing, MBA</span>
+              <span><i class="fa-solid fa-briefcase-medical"></i> 22 yrs Experience</span>
+            </div>
+            <p class="faculty-specialization"><i class="fa-solid fa-stethoscope"></i> Psychiatric Nursing</p>
+          </div>
+        </div>
+
+        <!-- Faculty 7 -->
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+          <div class="faculty-card">
+            <div class="faculty-avatar" style="background: linear-gradient(135deg, #059669, #34d399);">
+              <i class="fa-solid fa-user-nurse fa-2x" style="color:white;"></i>
+            </div>
+            <h5 class="faculty-name">Mrs. Deepa Varghese</h5>
+            <p class="faculty-role">Lecturer</p>
+            <div class="faculty-credentials">
+              <span><i class="fa-solid fa-graduation-cap"></i> M.Sc Nursing</span>
+              <span><i class="fa-solid fa-briefcase-medical"></i> 10 yrs Experience</span>
+            </div>
+            <p class="faculty-specialization"><i class="fa-solid fa-stethoscope"></i> Medical-Surgical Nursing</p>
+          </div>
+        </div>
+
+        <!-- Faculty 8 -->
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+          <div class="faculty-card">
+            <div class="faculty-avatar" style="background: linear-gradient(135deg, #7e22ce, #c084fc);">
+              <i class="fa-solid fa-user-doctor fa-2x" style="color:white;"></i>
+            </div>
+            <h5 class="faculty-name">Dr. Mohan Krishnan</h5>
+            <p class="faculty-role">Senior Lecturer</p>
+            <div class="faculty-credentials">
+              <span><i class="fa-solid fa-graduation-cap"></i> M.Sc, Ph.D (Pursuing)</span>
+              <span><i class="fa-solid fa-briefcase-medical"></i> 14 yrs Experience</span>
+            </div>
+            <p class="faculty-specialization"><i class="fa-solid fa-stethoscope"></i> Anatomy & Physiology</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SECTION 6: FACILITIES ====== -->
+  <section id="facilities" class="section-padding bg-light-subtle">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Infrastructure</span>
+        <h2 class="section-title">World-Class Facilities</h2>
+        <p class="section-subtitle">State-of-the-art infrastructure designed to deliver the finest clinical education experience.</p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Nursing Labs -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="facility-card">
+            <div class="facility-image-wrapper">
+              <img src="assets/images/nursing_lab.png" alt="Modern nursing simulation labs at XYZ Nursing College"
+                class="facility-image" loading="lazy" />
+              <div class="facility-overlay">
+                <div class="facility-icon"><i class="fa-solid fa-syringe"></i></div>
+              </div>
+            </div>
+            <div class="facility-content">
+              <h5>Nursing Simulation Labs</h5>
+              <p>8 fully equipped labs with high-fidelity patient simulators, IV mannequins, wound care stations, and real hospital-grade equipment for safe skill practice.</p>
+              <div class="facility-tags">
+                <span>High-Fidelity Simulators</span>
+                <span>8 Labs</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Library -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="facility-card">
+            <div class="facility-image-wrapper">
+              <img src="assets/images/library.png" alt="XYZ Nursing College library with extensive medical references"
+                class="facility-image" loading="lazy" />
+              <div class="facility-overlay">
+                <div class="facility-icon"><i class="fa-solid fa-book-medical"></i></div>
+              </div>
+            </div>
+            <div class="facility-content">
+              <h5>Health Sciences Library</h5>
+              <p>A 10,000+ volume library with digital databases, online journal subscriptions (PubMed, CINAHL), e-books, and dedicated quiet study zones for 300+ students.</p>
+              <div class="facility-tags">
+                <span>10,000+ Books</span>
+                <span>Digital Access</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Computer Lab -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="facility-card">
+            <div class="facility-image-wrapper">
+              <div class="facility-icon-only" style="background: linear-gradient(135deg, #1e6fb5, #34a0c8);">
+                <i class="fa-solid fa-desktop fa-3x" style="color:white;"></i>
+              </div>
+              <div class="facility-overlay">
+                <div class="facility-icon"><i class="fa-solid fa-computer"></i></div>
+              </div>
+            </div>
+            <div class="facility-content">
+              <h5>Computer Lab</h5>
+              <p>A 60-workstation computer lab with high-speed internet, nursing software (NurseTab, SimChart), telemedicine modules, and smart board technology.</p>
+              <div class="facility-tags">
+                <span>60 Workstations</span>
+                <span>High-Speed WiFi</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hostel -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="facility-card">
+            <div class="facility-image-wrapper">
+              <div class="facility-icon-only" style="background: linear-gradient(135deg, #2a9d5c, #4ecb71);">
+                <i class="fa-solid fa-building fa-3x" style="color:white;"></i>
+              </div>
+            </div>
+            <div class="facility-content">
+              <h5>Student Hostel</h5>
+              <p>Separate well-maintained hostels for boys and girls with 24/7 security, WiFi connectivity, mess facility, common rooms, and laundry services. Capacity: 500+ students.</p>
+              <div class="facility-tags">
+                <span>Separate Boys & Girls</span>
+                <span>500+ Capacity</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Transport -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="facility-card">
+            <div class="facility-image-wrapper">
+              <div class="facility-icon-only" style="background: linear-gradient(135deg, #d97706, #f59e0b);">
+                <i class="fa-solid fa-bus fa-3x" style="color:white;"></i>
+              </div>
+            </div>
+            <div class="facility-content">
+              <h5>Transport Services</h5>
+              <p>A fleet of 15 GPS-tracked buses covering all major city routes. Safe and punctual transport for students and staff with real-time tracking app for parents.</p>
+              <div class="facility-tags">
+                <span>15 Buses</span>
+                <span>GPS Tracked</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hospital Training -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="facility-card">
+            <div class="facility-image-wrapper">
+              <img src="assets/images/clinical_training.png" alt="Students doing clinical training in hospital"
+                class="facility-image" loading="lazy" />
+              <div class="facility-overlay">
+                <div class="facility-icon"><i class="fa-solid fa-hospital"></i></div>
+              </div>
+            </div>
+            <div class="facility-content">
+              <h5>Hospital Clinical Training</h5>
+              <p>Mandatory clinical rotations at 50+ partner hospitals including teaching hospitals, community health centers, and specialty care institutions across the region.</p>
+              <div class="facility-tags">
+                <span>50+ Partner Hospitals</span>
+                <span>1000+ Clinical Hours</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Additional Facilities Icons -->
+      <div class="extra-facilities-row mt-5" data-aos="fade-up">
+        <div class="extra-facility"><i class="fa-solid fa-dumbbell"></i><span>Sports & Fitness</span></div>
+        <div class="extra-facility"><i class="fa-solid fa-mug-hot"></i><span>Cafeteria</span></div>
+        <div class="extra-facility"><i class="fa-solid fa-wifi"></i><span>Free WiFi</span></div>
+        <div class="extra-facility"><i class="fa-solid fa-microphone-lines"></i><span>Auditorium</span></div>
+        <div class="extra-facility"><i class="fa-solid fa-kit-medical"></i><span>Health Center</span></div>
+        <div class="extra-facility"><i class="fa-solid fa-solar-panel"></i><span>Solar Energy</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SECTION 7: GALLERY ====== -->
+  <section id="gallery" class="section-padding">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Campus Life</span>
+        <h2 class="section-title">Photo Gallery</h2>
+        <p class="section-subtitle">Glimpses of life at XYZ Nursing College — from classrooms and labs to events and clinical training.</p>
+      </div>
+
+      <!-- Gallery Filter -->
+      <div class="gallery-filter" data-aos="fade-up">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="campus">Campus</button>
+        <button class="filter-btn" data-filter="events">Events</button>
+        <button class="filter-btn" data-filter="clinical">Clinical</button>
+        <button class="filter-btn" data-filter="labs">Labs</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid" id="galleryGrid" data-aos="fade-up">
+        <a href="assets/images/hero_nursing.png" class="gallery-item" data-glightbox="gallery: campus-gallery" data-category="campus" data-title="Students studying in modern facility">
+          <img src="assets/images/hero_nursing.png" alt="Nursing students in modern study facility" loading="lazy" />
+          <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+        </a>
+        <a href="assets/images/campus_building.png" class="gallery-item" data-glightbox="gallery: campus-gallery" data-category="campus" data-title="XYZ Nursing College Campus">
+          <img src="assets/images/campus_building.png" alt="XYZ Nursing College campus building" loading="lazy" />
+          <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+        </a>
+        <a href="assets/images/nursing_lab.png" class="gallery-item" data-glightbox="gallery: campus-gallery" data-category="labs" data-title="State-of-the-art Nursing Lab">
+          <img src="assets/images/nursing_lab.png" alt="Nursing simulation lab" loading="lazy" />
+          <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+        </a>
+        <a href="assets/images/clinical_training.png" class="gallery-item" data-glightbox="gallery: campus-gallery" data-category="clinical" data-title="Clinical Training at Partner Hospital">
+          <img src="assets/images/clinical_training.png" alt="Clinical training at hospital" loading="lazy" />
+          <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+        </a>
+        <a href="assets/images/library.png" class="gallery-item" data-glightbox="gallery: campus-gallery" data-category="campus" data-title="Health Sciences Library">
+          <img src="assets/images/library.png" alt="Health Sciences Library" loading="lazy" />
+          <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+        </a>
+        <a href="assets/images/faculty_team.png" class="gallery-item" data-glightbox="gallery: campus-gallery" data-category="events" data-title="Faculty Team">
+          <img src="assets/images/faculty_team.png" alt="XYZ Nursing College faculty team" loading="lazy" />
+          <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+        </a>
+        <a href="assets/images/hero_nursing.png" class="gallery-item" data-glightbox="gallery: campus-gallery" data-category="events" data-title="Annual Day Celebration">
+          <img src="assets/images/hero_nursing.png" alt="Annual day celebration" loading="lazy" style="filter:hue-rotate(30deg);" />
+          <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+        </a>
+        <a href="assets/images/campus_building.png" class="gallery-item" data-glightbox="gallery: campus-gallery" data-category="clinical" data-title="Community Health Camp">
+          <img src="assets/images/campus_building.png" alt="Community health camp" loading="lazy" style="filter:saturate(1.3);" />
+          <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SECTION 8: PLACEMENTS ====== -->
+  <section id="placements" class="section-padding bg-light-subtle">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Career Success</span>
+        <h2 class="section-title">Placements & Career</h2>
+        <p class="section-subtitle">Our dedicated placement cell ensures every graduate secures a rewarding career in top healthcare institutions.</p>
+      </div>
+
+      <!-- Placement Stats -->
+      <div class="placement-stats-grid" data-aos="fade-up">
+        <div class="placement-stat-card">
+          <div class="placement-stat-icon"><i class="fa-solid fa-briefcase"></i></div>
+          <span class="placement-stat-num" data-target="95">0</span><span class="stat-pct">%</span>
+          <span class="placement-stat-label">Overall Placement Rate</span>
+        </div>
+        <div class="placement-stat-card">
+          <div class="placement-stat-icon"><i class="fa-solid fa-hospital-user"></i></div>
+          <span class="placement-stat-num" data-target="500">0</span><span class="stat-pct">+</span>
+          <span class="placement-stat-label">Students Placed in 2024</span>
+        </div>
+        <div class="placement-stat-card">
+          <div class="placement-stat-icon"><i class="fa-solid fa-building-columns"></i></div>
+          <span class="placement-stat-num" data-target="120">0</span><span class="stat-pct">+</span>
+          <span class="placement-stat-label">Recruiting Organizations</span>
+        </div>
+        <div class="placement-stat-card">
+          <div class="placement-stat-icon"><i class="fa-solid fa-indian-rupee-sign"></i></div>
+          <span class="placement-stat-num" data-target="35000">0</span><span class="stat-pct">+</span>
+          <span class="placement-stat-label">Average Starting Salary (₹/mo)</span>
+        </div>
+      </div>
+
+      <!-- Recruiting Hospitals -->
+      <div class="recruiting-section mt-5" data-aos="fade-up">
+        <h4 class="text-center mb-4">Our Recruiting Partner Hospitals</h4>
+        <div class="hospital-logos-marquee">
+          <div class="hospital-logos-track">
+            <div class="hospital-logo"><i class="fa-solid fa-hospital me-2"></i> Apollo Hospitals</div>
+            <div class="hospital-logo"><i class="fa-solid fa-hospital me-2"></i> Fortis Healthcare</div>
+            <div class="hospital-logo"><i class="fa-solid fa-hospital me-2"></i> AIIMS Delhi</div>
+            <div class="hospital-logo"><i class="fa-solid fa-hospital me-2"></i> Manipal Hospitals</div>
+            <div class="hospital-logo"><i class="fa-solid fa-hospital me-2"></i> Narayana Health</div>
+            <div class="hospital-logo"><i class="fa-solid fa-hospital me-2"></i> Aster DM Healthcare</div>
+            <div class="hospital-logo"><i class="fa-solid fa-hospital me-2"></i> Max Healthcare</div>
+            <div class="hospital-logo"><i class="fa-solid fa-hospital me-2"></i> Medanta</div>
+            <div class="hospital-logo"><i class="fa-solid fa-hospital me-2"></i> Columbia Asia</div>
+            <div class="hospital-logo"><i class="fa-solid fa-hospital me-2"></i> Kokilaben Ambani Hospital</div>
+            <!-- Duplicate for seamless loop -->
+            <div class="hospital-logo"><i class="fa-solid fa-hospital me-2"></i> Apollo Hospitals</div>
+            <div class="hospital-logo"><i class="fa-solid fa-hospital me-2"></i> Fortis Healthcare</div>
+            <div class="hospital-logo"><i class="fa-solid fa-hospital me-2"></i> AIIMS Delhi</div>
+            <div class="hospital-logo"><i class="fa-solid fa-hospital me-2"></i> Manipal Hospitals</div>
+            <div class="hospital-logo"><i class="fa-solid fa-hospital me-2"></i> Narayana Health</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Career Opportunities -->
+      <div class="row g-3 mt-4" data-aos="fade-up">
+        <h4 class="text-center mb-3">Career Opportunities</h4>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="career-card"><i class="fa-solid fa-hospital"></i><span>Staff Nurse</span></div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="career-card"><i class="fa-solid fa-heart-pulse"></i><span>ICU Nurse</span></div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="career-card"><i class="fa-solid fa-baby"></i><span>Paediatric Nurse</span></div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="career-card"><i class="fa-solid fa-house-medical"></i><span>Community Nurse</span></div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="career-card"><i class="fa-solid fa-plane"></i><span>International Nursing</span></div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="career-card"><i class="fa-solid fa-chalkboard-teacher"></i><span>Nursing Educator</span></div>
+        </div>
+      </div>
+
+      <!-- Testimonials Slider -->
+      <div class="testimonials-section mt-5" data-aos="fade-up">
+        <h4 class="text-center mb-4">What Our Alumni Say</h4>
+        <div class="testimonials-slider" id="testimonialsSlider">
+          <div class="testimonial-track" id="testimonialTrack">
+            <!-- Testimonial 1 -->
+            <div class="testimonial-slide">
+              <div class="testimonial-card">
+                <div class="testimonial-stars">
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <p class="testimonial-text">"XYZ Nursing College gave me the confidence and skills to thrive in a high-pressure ICU environment. The simulation labs were incredible — I felt fully prepared for real clinical scenarios from day one."</p>
+                <div class="testimonial-author">
+                  <div class="testimonial-avatar"><i class="fa-solid fa-user-nurse"></i></div>
+                  <div>
+                    <strong>Priya Sharma</strong>
+                    <span>B.Sc Nursing, Batch 2021 | Senior Nurse, Apollo Hospitals</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Testimonial 2 -->
+            <div class="testimonial-slide">
+              <div class="testimonial-card">
+                <div class="testimonial-stars">
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <p class="testimonial-text">"The faculty here are exceptionally dedicated. They go beyond textbooks to teach real-world problem-solving. I got placed at Fortis Healthcare through campus recruitment, and the preparation I received here was invaluable."</p>
+                <div class="testimonial-author">
+                  <div class="testimonial-avatar"><i class="fa-solid fa-user-nurse"></i></div>
+                  <div>
+                    <strong>Arun Mehta</strong>
+                    <span>GNM, Batch 2020 | Charge Nurse, Fortis Healthcare</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Testimonial 3 -->
+            <div class="testimonial-slide">
+              <div class="testimonial-card">
+                <div class="testimonial-stars">
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <p class="testimonial-text">"After my GNM from XYZ College, I pursued Post Basic B.Sc here. The upgrade program was excellent and helped me secure a nursing educator role. I am now pursuing my M.Sc Nursing with full confidence."</p>
+                <div class="testimonial-author">
+                  <div class="testimonial-avatar"><i class="fa-solid fa-user-nurse"></i></div>
+                  <div>
+                    <strong>Deepa Krishnan</strong>
+                    <span>Post Basic B.Sc, Batch 2022 | Nursing Educator, KIMS Hospital</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Testimonial Controls -->
+          <div class="testimonial-controls">
+            <button class="testimonial-btn" id="prevTestimonial" aria-label="Previous testimonial">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <div class="testimonial-dots" id="testimonialDots">
+              <button class="dot active" data-index="0" aria-label="Testimonial 1"></button>
+              <button class="dot" data-index="1" aria-label="Testimonial 2"></button>
+              <button class="dot" data-index="2" aria-label="Testimonial 3"></button>
+            </div>
+            <button class="testimonial-btn" id="nextTestimonial" aria-label="Next testimonial">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SECTION 9: NEWS & EVENTS ====== -->
+  <section id="news" class="section-padding">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Stay Updated</span>
+        <h2 class="section-title">News & Events</h2>
+        <p class="section-subtitle">Stay connected with the latest happenings, workshops, health camps, and announcements from XYZ Nursing College.</p>
+      </div>
+
+      <div class="row g-4">
+        <!-- News Card 1 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="news-card">
+            <div class="news-badge upcoming">Upcoming Event</div>
+            <div class="news-date-icon">
+              <i class="fa-solid fa-calendar-days"></i>
+              <span class="news-date">July 15, 2025</span>
+            </div>
+            <h5 class="news-title">Annual Health Camp & Free OPD Drive</h5>
+            <p class="news-excerpt">Join us for our Annual Community Health Camp where students provide free health screenings, blood pressure checks, BMI assessments, and dental checkups to 5,000+ residents.</p>
+            <div class="news-meta">
+              <span><i class="fa-solid fa-map-pin"></i> College Campus & City Center</span>
+            </div>
+            <a href="#" class="news-link">Read More <i class="fa-solid fa-arrow-right ms-1"></i></a>
+          </div>
+        </div>
+
+        <!-- News Card 2 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="news-card">
+            <div class="news-badge workshop">Workshop</div>
+            <div class="news-date-icon">
+              <i class="fa-solid fa-calendar-days"></i>
+              <span class="news-date">August 3-4, 2025</span>
+            </div>
+            <h5 class="news-title">Advanced BLS & ACLS Certification Workshop</h5>
+            <p class="news-excerpt">A 2-day intensive certification workshop on Basic Life Support (BLS) and Advanced Cardiovascular Life Support (ACLS) led by Apollo Hospital's Senior Cardiologists.</p>
+            <div class="news-meta">
+              <span><i class="fa-solid fa-map-pin"></i> College Auditorium</span>
+            </div>
+            <a href="#" class="news-link">Read More <i class="fa-solid fa-arrow-right ms-1"></i></a>
+          </div>
+        </div>
+
+        <!-- News Card 3 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="news-card">
+            <div class="news-badge announcement">Announcement</div>
+            <div class="news-date-icon">
+              <i class="fa-solid fa-calendar-days"></i>
+              <span class="news-date">June 20, 2025</span>
+            </div>
+            <h5 class="news-title">Admissions Open: 2025-26 Academic Year</h5>
+            <p class="news-excerpt">Applications are now open for B.Sc Nursing, GNM, ANM and Post Basic B.Sc Nursing programs. Early bird applicants receive scholarship consideration and priority counselling slots.</p>
+            <div class="news-meta">
+              <span><i class="fa-solid fa-map-pin"></i> Admissions Office & Online</span>
+            </div>
+            <a href="#admissions" class="news-link">Apply Now <i class="fa-solid fa-arrow-right ms-1"></i></a>
+          </div>
+        </div>
+
+        <!-- News Card 4 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="news-card">
+            <div class="news-badge event">Annual Event</div>
+            <div class="news-date-icon">
+              <i class="fa-solid fa-calendar-days"></i>
+              <span class="news-date">September 12, 2025</span>
+            </div>
+            <h5 class="news-title">Nurses Day Cultural Fest & Award Ceremony</h5>
+            <p class="news-excerpt">Celebrating nursing excellence at our Annual Cultural Fest. Cultural performances, inter-college competitions, and awards for outstanding students and faculty.</p>
+            <div class="news-meta">
+              <span><i class="fa-solid fa-map-pin"></i> College Auditorium</span>
+            </div>
+            <a href="#" class="news-link">Read More <i class="fa-solid fa-arrow-right ms-1"></i></a>
+          </div>
+        </div>
+
+        <!-- News Card 5 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="news-card">
+            <div class="news-badge workshop">Seminar</div>
+            <div class="news-date-icon">
+              <i class="fa-solid fa-calendar-days"></i>
+              <span class="news-date">October 5, 2025</span>
+            </div>
+            <h5 class="news-title">International Nursing Education Conference</h5>
+            <p class="news-excerpt">XYZ Nursing College hosts the 5th Annual Nursing Education Conference featuring speakers from WHO, ICN and leading global nursing schools. Open to all registered nurses.</p>
+            <div class="news-meta">
+              <span><i class="fa-solid fa-map-pin"></i> Convention Hall</span>
+            </div>
+            <a href="#" class="news-link">Read More <i class="fa-solid fa-arrow-right ms-1"></i></a>
+          </div>
+        </div>
+
+        <!-- News Card 6 - Recent Achievement -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="news-card achievement-card">
+            <div class="news-badge achievement">Achievement</div>
+            <div class="news-date-icon">
+              <i class="fa-solid fa-trophy"></i>
+              <span class="news-date">May 2025</span>
+            </div>
+            <h5 class="news-title">XYZ College Wins State Nursing Excellence Award 2025</h5>
+            <p class="news-excerpt">Proud to announce that XYZ Nursing College has been awarded the State Nursing Excellence Award by the State Health Department for outstanding clinical training outcomes and placement records.</p>
+            <div class="news-meta">
+              <span><i class="fa-solid fa-award"></i> State Health Department</span>
+            </div>
+            <a href="#" class="news-link">Read More <i class="fa-solid fa-arrow-right ms-1"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FAQ SECTION ====== -->
+  <section id="faq" class="section-padding bg-light-subtle">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Got Questions?</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-subtitle">Find answers to the most common questions about admissions, programs, and campus life.</p>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-9" data-aos="fade-up">
+          <div class="accordion faq-accordion" id="faqAccordion">
+
+            <div class="accordion-item faq-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button faq-btn" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
+                  What is the last date to apply for 2025-26 admissions?
+                </button>
+              </h3>
+              <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                <div class="accordion-body faq-body">
+                  The last date for online application submission is <strong>August 31, 2025</strong>. However, seats are filled on a rolling basis, so early application is strongly encouraged. Applicants are advised to apply as soon as the notification is released.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item faq-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed faq-btn" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                  Is there an entrance exam for B.Sc Nursing admission?
+                </button>
+              </h3>
+              <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body faq-body">
+                  Admission to the B.Sc Nursing program is based on the State Common Entrance Test (CET) score or merit of 12th grade marks as per state government norms. Our institution also considers the NEET UG score for some seats. Detailed merit list criteria are published each year.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item faq-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed faq-btn" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                  Are scholarships available for economically weaker students?
+                </button>
+              </h3>
+              <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body faq-body">
+                  Yes. XYZ Nursing College offers several scholarship schemes: <strong>Merit Scholarship</strong> (for top 10% scorers), <strong>EWS Scholarship</strong> (income-based), <strong>State Government SC/ST/OBC scholarships</strong>, and <strong>Management Scholarship</strong>. Students can also avail bank education loans through our tied-up banks.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item faq-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed faq-btn" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                  What are the hostel facilities like?
+                </button>
+              </h3>
+              <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body faq-body">
+                  We have separate hostels for boys and girls, each with 24/7 security. Rooms are furnished (2-3 per room) with a study desk, wardrobe, and internet connectivity. The mess provides vegetarian and non-vegetarian meals. There's a separate warden for each hostel, a common TV room, and a reading lounge.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item faq-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed faq-btn" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
+                  Can I pursue nursing abroad after graduating from XYZ College?
+                </button>
+              </h3>
+              <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body faq-body">
+                  Absolutely. Our B.Sc Nursing degree is recognized by nursing councils in the USA (NCLEX-RN), UK (NMC), Australia (AHPRA), and the Gulf countries. We also offer dedicated coaching for NCLEX-RN and NMC-CBT exams. Several of our alumni are currently working in the USA, UK, Canada, UAE, and Australia.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item faq-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed faq-btn" type="button" data-bs-toggle="collapse" data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6">
+                  What is the faculty-to-student ratio?
+                </button>
+              </h3>
+              <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body faq-body">
+                  We maintain an INC-mandated faculty-to-student ratio of 1:10 for theory classes and 1:5 for clinical training, ensuring personalized attention for every student. We currently have 120+ qualified faculty members for approximately 2,500 students across all programs.
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SECTION 10: CONTACT ====== -->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Contact Us</h2>
+        <p class="section-subtitle">We're here to answer your questions. Reach out to us through any of the following channels.</p>
+      </div>
+
+      <div class="row g-5">
+        <!-- Contact Info -->
+        <div class="col-lg-5" data-aos="fade-right">
+          <div class="contact-info-card">
+            <h4>Contact Information</h4>
+
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <strong>Address</strong>
+                <p>XYZ Nursing College, Healthcare Nagar,<br />Medical Campus Road, Bangalore – 560001,<br />Karnataka, India</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+              <div>
+                <strong>Phone Numbers</strong>
+                <p>
+                  <a href="tel:+918012345678">+91 80 1234 5678</a> (Main Office)<br />
+                  <a href="tel:+919876543210">+91 98765 43210</a> (Admissions)<br />
+                  <a href="tel:+918023456789">+91 80 2345 6789</a> (Principal's Office)
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div>
+                <strong>Email Addresses</strong>
+                <p>
+                  <a href="mailto:info@xyznursingcollege.edu.in">info@xyznursingcollege.edu.in</a><br />
+                  <a href="mailto:admissions@xyznursingcollege.edu.in">admissions@xyznursingcollege.edu.in</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-clock"></i></div>
+              <div>
+                <strong>Office Hours</strong>
+                <p>Monday – Saturday: 9:00 AM – 5:00 PM<br />Sunday: Closed</p>
+              </div>
+            </div>
+
+            <!-- Social Media -->
+            <div class="social-links">
+              <h5>Follow Us</h5>
+              <div class="social-icons">
+                <a href="#" class="social-icon" aria-label="Follow us on Facebook" title="Facebook">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-icon" aria-label="Follow us on Instagram" title="Instagram">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" class="social-icon" aria-label="Follow us on Twitter/X" title="Twitter/X">
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#" class="social-icon" aria-label="Follow us on YouTube" title="YouTube">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="#" class="social-icon" aria-label="Connect on LinkedIn" title="LinkedIn">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="#" class="social-icon whatsapp" aria-label="Chat on WhatsApp" title="WhatsApp">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form + Map -->
+        <div class="col-lg-7" data-aos="fade-left">
+          <!-- Contact Form -->
+          <div class="contact-form-card mb-4">
+            <h4><i class="fa-solid fa-message me-2"></i>Send Us a Message</h4>
+            <form id="contactForm" novalidate>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="contactName" class="form-label">Full Name <span aria-hidden="true">*</span></label>
+                  <input type="text" class="form-control" id="contactName" required placeholder="Your full name" autocomplete="name" />
+                  <div class="invalid-feedback">Please enter your name.</div>
+                </div>
+                <div class="col-md-6">
+                  <label for="contactEmail" class="form-label">Email <span aria-hidden="true">*</span></label>
+                  <input type="email" class="form-control" id="contactEmail" required placeholder="your@email.com" autocomplete="email" />
+                  <div class="invalid-feedback">Please enter a valid email.</div>
+                </div>
+                <div class="col-12">
+                  <label for="contactSubject" class="form-label">Subject <span aria-hidden="true">*</span></label>
+                  <input type="text" class="form-control" id="contactSubject" required placeholder="Subject of your message" />
+                  <div class="invalid-feedback">Please enter a subject.</div>
+                </div>
+                <div class="col-12">
+                  <label for="contactMessage" class="form-label">Message <span aria-hidden="true">*</span></label>
+                  <textarea class="form-control" id="contactMessage" rows="4" required
+                    placeholder="Write your message here..."></textarea>
+                  <div class="invalid-feedback">Please enter your message.</div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-submit-form" id="contactSubmitBtn">
+                    <i class="fa-solid fa-paper-plane me-2"></i>Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <!-- Map -->
+          <div class="map-wrapper">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7919748064785!2d77.5765!3d12.9845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDU5JzA0LjIiTiA3N8KwMzQnMzUuNCJF!5e0!3m2!1sen!2sin!4v1627986753214!5m2!1sen!2sin"
+              width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="XYZ Nursing College location on Google Maps">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row g-4">
+          <!-- Brand -->
+          <div class="col-lg-4">
+            <div class="footer-brand">
+              <div class="footer-logo">
+                <i class="fa-solid fa-staff-snake"></i>
+                <span>XYZ Nursing College</span>
+              </div>
+              <p class="footer-desc">Empowering future healthcare professionals through excellence in nursing education, compassionate values, and world-class clinical training since 1998.</p>
+              <div class="footer-social">
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-sm-6 col-lg-2">
+            <h5 class="footer-heading">Quick Links</h5>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#courses">Courses</a></li>
+              <li><a href="#admissions">Admissions</a></li>
+              <li><a href="#faculty">Faculty</a></li>
+              <li><a href="#placements">Placements</a></li>
+            </ul>
+          </div>
+
+          <!-- Programs -->
+          <div class="col-sm-6 col-lg-3">
+            <h5 class="footer-heading">Programs Offered</h5>
+            <ul class="footer-links">
+              <li><a href="#courses">B.Sc Nursing (4 Years)</a></li>
+              <li><a href="#courses">GNM (3.5 Years)</a></li>
+              <li><a href="#courses">ANM (2 Years)</a></li>
+              <li><a href="#courses">Post Basic B.Sc Nursing</a></li>
+              <li><a href="#faq">Frequently Asked Questions</a></li>
+              <li><a href="#contact">Download Prospectus</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact -->
+          <div class="col-lg-3">
+            <h5 class="footer-heading">Contact Us</h5>
+            <ul class="footer-contact-list">
+              <li>
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Healthcare Nagar, Medical Campus Road, Bangalore – 560001</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-phone"></i>
+                <a href="tel:+918012345678">+91 80 1234 5678</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:info@xyznursingcollege.edu.in">info@xyznursingcollege.edu.in</a>
+              </li>
+              <li>
+                <i class="fa-brands fa-whatsapp"></i>
+                <a href="https://wa.me/919876543210">+91 98765 43210</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="footer-bottom-inner">
+          <p>&copy; <span id="footerYear">2025</span> XYZ Nursing College. All rights reserved.</p>
+          <div class="footer-bottom-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Sitemap</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ====== BACK TO TOP BUTTON ====== -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- ====== SUCCESS TOAST ====== -->
+  <div class="toast-container position-fixed bottom-0 end-0 p-3">
+    <div id="successToast" class="toast align-items-center border-0" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="d-flex">
+        <div class="toast-body" id="toastMessage">
+          <i class="fa-solid fa-circle-check me-2"></i> Message sent successfully!
+        </div>
+        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ====== SCRIPTS ====== -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
